@@ -1,0 +1,128 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+  h1{
+    font-size: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 0;
+  }
+  
+  #css {  
+    color: #7D0900;
+    font-family: 'Odibee Sans', cursive;
+  }
+  
+  .carousel-wrapper {
+    height: 400px;
+    position: relative;
+    width: 800px;
+    display: block;
+    margin: 50px auto ;
+    border: 2px solid black;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+  .arrow-prev {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+  
+  }
+  .arrow-next {
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  [id^= "item"] {
+    display: none;
+  }
+  .item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('../IMAGES/interfaces/Interfaz\ de\ arranque\ .png');
+    background-size: cover;
+  }
+  .item-2 {
+    background: url('../IMAGES/interfaces/Iniciar_sesion.png');
+    background-size: cover;
+  }
+  .item-3 {
+    background: url('../IMAGES/interfaces/perfil.png');
+    background-size: cover;
+  }
+  .item-4 {
+    background: url('../IMAGES/interfaces/menu.png');
+    background-size: cover;
+  }
+  .item-5 {
+    background: url('../IMAGES/interfaces/cajas.png');
+    background-size: cover;
+  }
+  .item-6 {
+    background: url('../IMAGES/interfaces/conteo_de_efectivo.png');
+    background-size: cover;
+  }
+  .item-7 {
+    background: url('../IMAGES/interfaces/clientes.png');
+    background-size: cover;
+  }
+  .item-8 {
+    background: url('../IMAGES/interfaces/ventas.png');
+    background-size: cover;
+  }.item-9 {
+    background: url('../IMAGES/interfaces/gastos.png');
+    background-size: cover;
+  }.item-10 {
+    background: url('../IMAGES/interfaces/corte_de_inventario.png');
+    background-size: cover;
+  }
+  .item-11 {
+    background: url('../IMAGES/interfaces/pedidos.png');
+    background-size: cover;
+  }.item-12 {
+    background: url('../IMAGES/interfaces/promociones.png');
+    background-size: cover;
+  }.item-13 {
+    background: url('../IMAGES/interfaces/proveedores.png');
+    background-size: cover;
+  }
+  .item-14 {
+    background: url('../IMAGES/interfaces/alerta_de_caducidad.png');
+    background-size: cover;
+  }
+  *:target ~ .item-1{
+    opacity: 0;
+  }
+  #item-1:target ~ .item-1 {
+    opacity: 1;
+  
+  }
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3,  #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 ,#item-9:target ~ .item-9 ,#item-10:target ~ .item-10 ,#item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13, #item-14:target ~ .item-14 {
+    z-index: 3;
+    opacity: 1;
+  } 

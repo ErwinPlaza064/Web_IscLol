@@ -1,0 +1,56 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+height: 100%;
+background:linear-gradient(#0a4d68,#ffffff);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.logo{
+    z-index: 1000;
+    margin-top: 2px;
+    margin-left: 30px;}
+    .tittle{
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		color:aliceblue;
+		justify-content: center;
+		text-align: center;
+		
+	}
+	.name{
+		font-family: Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		justify-content: center;
+		text-align: center;
+	}
+	.formulario{
+		justify-content: center;
+		text-align: center;
+		/*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center
+	}
+	.button{
+		/*display:grid;
+		grid-template-columns: repeat(3, 1fr);*/
+		border-radius: 10px;
+		width: 80px;
+		height: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		border-color: #0a4d68;
+		background-color: aquamarine;
+		/*float:left;
+		margin-left: 20px;*/
+	}
+	

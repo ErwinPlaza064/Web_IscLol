@@ -1,0 +1,160 @@
+* 
+  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+
+  html
+  {
+    font-size: 62.5%;
+    background:linear-gradient( #7D0900, #FF9B93);
+    text-align: center;
+  }
+  /*estilos del menú de navegación*/
+.contenedor-menu{
+  width : 95%;
+  max-width : 1000px;
+  margin:auto;
+}
+  .contenedor-menu p{
+  margin-bottom:30px;
+  }
+header nav{
+background:#FF9B93;
+margin-bottom: 10px;
+}
+  header nav ul{
+      list-style: none;
+      overflow: hidden;
+  }
+      header nav ul li{
+          float: left;
+      }
+          header nav ul li a{
+          display:block;
+          padding: 20px;
+          color: #000000;
+          text-decoration: none;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          width: 200px;
+          font-size: 20px;
+        }
+          
+          header nav ul li a:hover{
+              background: #f2d394;
+          }
+              .menu-fixed{
+
+                  position: fixed;
+                  z-index: 1000;
+                  top: 0;
+                  width: 50%;
+                  max-width: 1000;
+                  box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+              }
+  .text
+  {
+    color: rgb(255, 255, 255);
+    font-family: 'Share Tech', sans-serif;
+    font-size: 400%;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 2px #FF9B93;
+  }
+  .contenedor
+  {
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 80px;
+  }
+.box 
+  {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 1%;
+    margin-top: 8%;
+    color: rgb(0, 0, 0);
+    font-family: 'Share Tech', sans-serif;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgb(59, 55, 73); 
+  }
+
+  .box h1 
+  {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box h2
+   {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+  .box1
+  {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 34%;
+    margin-top: -27.4%;
+    color: rgb(0, 0, 0);
+    font-family: 'Share Tech', sans-serif;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgb(59, 55, 73); 
+  }
+
+  .box1 h1 
+  {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box1 h2
+   {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+  .box2
+  {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 67%;
+    margin-top: -60.2%;
+    color: rgb(0, 0, 0);
+    font-family: 'Share Tech', sans-serif;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgb(59, 55, 73); 
+  }
+
+  .box2 h1 
+  {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box2 h2
+   {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+ 
+  

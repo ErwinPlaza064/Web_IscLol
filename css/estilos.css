@@ -1,0 +1,27 @@
+body{
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 97.9%;
+    margin: 0;
+    padding: 0;
+}
+.contenido{
+    margin-top: 50px;
+    display: flex;
+
+            width: 90%; height: 200px;
+            flex-wrap: nowrap;
+            align-items: center;
+            background-color: rgba(106, 232, 243, 0.692);
+            padding: 5%;
+            justify-content: space-around;
+           
+}

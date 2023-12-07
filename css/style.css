@@ -1,0 +1,132 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body
+{
+background:linear-gradient(#7d0900, #ff9b93);
+height: 100vh;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+ /*estilos del menú de navegación*/
+ .contenedor-menu{
+    width : 95%;
+    max-width : 1000px;
+    margin:auto;
+  }
+    .contenedor p{
+    margin-bottom:30px;
+    }
+  header nav{
+  background:#FF9B93;
+  margin-bottom: 10px;
+  }
+    header nav ul{
+        list-style: none;
+        overflow: hidden;
+    }
+        header nav ul li{
+            float: left;
+        }
+            header nav ul li a{
+            display:block;
+            padding: 20px;
+            color: #000000;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 200px;
+            font-size: 20px;
+          }
+            
+            header nav ul li a:hover{
+                background: #f2d394;
+            }
+                .menu-fixed{
+  
+                    position: fixed;
+                    z-index: 1000;
+                    top: 0;
+                    width: 100%;
+                    max-width: 1000;
+                    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+                }
+
+.form-register
+{
+    width: 400px;
+    background: #f2d394;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'caibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls
+{
+    width: 100%;
+    background: #ff9b93;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #7d0900;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+.form-register p
+{
+height: 40px;
+text-align: center;
+font-size: 18px;
+line-height:  40px;
+}
+
+.form-register a
+{
+    color: black;
+    text-decoration:none;
+}
+.form-register a:hover
+{
+    color: #7d0900;
+    text-decoration: underline;
+    
+
+}
+
+.form-register .botons
+{
+    width: 100%;
+    background: #d2554d;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.form-register .botons:hover
+{
+    background: #7d0900;
+}
+
+
+
